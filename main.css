@@ -1,0 +1,7 @@
+#add-accounts-view, #edit-delete-view, #edit-account-view{
+    display: none;
+}
+.navbar-nav .nav-link.active{
+    background-color: rgb(222, 222, 224);
+    border-radius: 8px;
+}
