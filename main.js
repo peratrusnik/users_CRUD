@@ -1,3 +1,11 @@
+window.addEventListener('beforeunload', save);
+
+function save() {
+    localStorage.database = JSON.stringify(database);
+}
+
+
+
 //views
 let accountsView = document.querySelector('#accounts-view');
 let addAccountsView = document.querySelector('#add-accounts-view');
